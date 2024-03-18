@@ -1,0 +1,7 @@
+# phpstorm project files
+.idea
+
+/.docker-images-before
+/.docker-images-after
+
+/vendor/
