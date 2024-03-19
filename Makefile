@@ -23,7 +23,7 @@ app-init: composer-install
 
 ########
 composer-install:
-	docker-compose run --rm php-cli composer install
+	docker-compose run --rm app-php-cli composer install
 
 composer-update:
-	docker-compose run --rm php-cli composer update
+	docker-compose run --rm app-php-cli composer update
